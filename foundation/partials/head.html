@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+<title>{{ page.title }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+{{# page.description }}
+<meta name="description" content="{{ . }}">
+{{/ page.description }}
+<meta name="author" content="{{ data.author.name }}">
+
+<!-- Le styles -->
+{{# stylesheets.load }}
+  app.css
+{{/ stylesheets.load }}
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oregano" />
+
+<!-- Le fav and touch icons -->
+<!-- Update these with your own images
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+-->
+

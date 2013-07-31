@@ -1,6 +1,11 @@
 source "https://rubygems.org"
-gem 'psych', "~> 1.3"
 gem 'ruhoh', "~> 2.1"
+gem 'guard'
+gem 'guard-compass'
+gem 'guard-livereload'
+gem 'rack-livereload'
+gem 'zurb-foundation'
+gem 'compass'
 
 # To enable asset packaging and processing via sprockets:
 #

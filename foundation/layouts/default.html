@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="en">
+  <head>
+  {{>head}}
+  </head>
+
+  <body>
+    <nav class="top-bar">
+    {{>nav}}
+    </nav>
+    <div class="row">
+    <div class="large-12 columns header">
+      <h1>Music and Me</h1>
+    </div>
+  </div>
+	<div class="row">
+		<div class="large-12 columns">
+      {{{ content }}}
+		</div>
+	</div>
+
+  <footer>
+    {{>footer}}
+  </footer>
+
+    <script>
+      document.write('<script src=' +
+      ('__proto__' in {} ? '/assets/javascripts/vendor/zepto' : '/assets/javascripts/vendor/jquery') +
+      '.js><\/script>')
+    </script>
+    {{# javascripts.load }}
+      vendor/custom.modernizr.js
+      foundation/foundation.js
+      foundation/foundation.alerts.js
+      foundation/foundation.clearing.js
+      foundation/foundation.cookie.js
+      foundation/foundation.dropdown.js
+      foundation/foundation.forms.js
+      foundation/foundation.interchange.js
+      foundation/foundation.joyride.js
+      foundation/foundation.magellan.js
+      foundation/foundation.orbit.js
+      foundation/foundation.placeholder.js
+      foundation/foundation.reveal.js
+      foundation/foundation.section.js
+      foundation/foundation.tooltips.js
+      foundation/foundation.topbar.js
+    {{/ javascripts.load }}
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

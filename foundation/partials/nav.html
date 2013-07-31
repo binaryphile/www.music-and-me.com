@@ -1,0 +1,14 @@
+<ul class="title-area">
+  <li class="name">
+  <h1><a href="{{urls.base_path}}">{{ data.title }}</a></h1>
+  </li>
+  <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+</ul>
+<section class="top-bar-section">
+    <ul class="left">
+      {{# data.navigation?to__root }}
+        {{> pages_list }}
+      {{/ data.navigation?to__root }}
+    </ul>
+</section>
+
