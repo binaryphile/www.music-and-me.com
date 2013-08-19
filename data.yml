@@ -11,11 +11,7 @@ author :
   phone: 813-409-4244
 
 navigation :
-  - class-schedule
-  - register
-  - schedule
-  - locations
-  - learn
+  - classes
   - contact-us
 
 registration:

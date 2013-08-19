@@ -29,6 +29,7 @@ GEM
       guard (>= 1.8.0)
       multi_json (~> 1.7)
     http_parser.rb (0.5.3)
+    kramdown (1.1.0)
     listen (1.2.2)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
@@ -71,6 +72,7 @@ DEPENDENCIES
   guard
   guard-compass
   guard-livereload
+  kramdown
   rack-livereload
   ruhoh (~> 2.1)
   zurb-foundation

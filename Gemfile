@@ -6,6 +6,7 @@ gem 'guard-livereload'
 gem 'rack-livereload'
 gem 'zurb-foundation'
 gem 'compass'
+gem 'kramdown'
 
 # To enable asset packaging and processing via sprockets:
 #

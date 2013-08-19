@@ -3,21 +3,18 @@ title: Contact Us
 description: Contact information for the Music and Me program in St. Petersburg, FL and surrounding areas.
 ---
 
-Mailing Address
----------------
+### Mailing Address
 
 {{#data.author.address}}
 {{street}}  
 {{city}}, {{state}} {{zip}}
 {{/data.author.address}}
 
-Phone
------
+### Phone
 
 {{data.author.phone}}
 
-Email
------
+### Email
 
 {{data.author.email}}
 
