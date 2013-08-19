@@ -1,4 +1,4 @@
-compiled/*
-foundation/.sass-cache
-foundation/stylesheets/*
+compiled/
+.sass-cache/
+foundation/stylesheets/
 
