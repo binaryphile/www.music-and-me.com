@@ -6,6 +6,10 @@ body {
   background: none;
 }
 
+header {
+  margin-bottom: 30px;
+}
+
 .header h1 {
   color: #51811D;
   text-shadow: 0.7px 0.7px 1px rgba(0, 0, 0, 0.13), 1.4px 1.4px 1px rgba(0, 0, 0,
@@ -18,7 +22,37 @@ body {
   label { width: auto; display: inline; }
 }
 
+.title-area h1 {
+  font-family: Gochi Hand, sans-serif;
+}
+
 h1, h2 {
-  font-family: Oregano, sans-serif;
+  font-family: Original Surfer, sans-serif;
+}
+
+h2 {
+  color: #165208;
+}
+
+.no-bottom {
+  margin-bottom: 0 !important;
+}
+
+.no-top {
+  margin-top: 0 !important;
+}
+
+.logo {
+  font-family: Gochi Hand, sans-serif;
+  font-size: emCalc(44px);
+  color: $primary-color;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-center {
+  text-align: center !important;
 }
 

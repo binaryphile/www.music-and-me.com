@@ -1,8 +1,8 @@
-title : Music and Me
+title: Music and Me
 tagline: Bringing children and music together
-author :
-  name : Music and Me, LLC
-  email : youandmeandmt@hotmail.com
+author:
+  name: Music and Me, LLC
+  email: youandmeandmt@hotmail.com
   address:
     street: 5631 29th Ave S
     city: Gulfport
@@ -10,9 +10,11 @@ author :
     zip: 33707
   phone: 813-409-4244
 
-navigation :
+navigation:
   - classes
   - contact-us
+
+location-url: http://youandmeandmt.yourvirtuoso.com/Location.html?locationId=
 
 registration:
   - location: JCC Suncoast South at Temple Beth El

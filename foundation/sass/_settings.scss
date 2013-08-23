@@ -30,7 +30,7 @@ $default-float: left;
 
 // $body-bg: #fff;
 // $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family: Muli, san-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -201,7 +201,7 @@ $header-font-weight: normal;
 // Lists
 
 // $list-style-position: outside;
-$list-side-margin: emCalc(20px);
+/*$list-side-margin: emCalc(20px);*/
 // $list-nested-margin: emCalc(20px);
 // $definition-list-header-weight: bold;
 // $definition-list-header-margin-bottom: .3em;
