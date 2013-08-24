@@ -2,4 +2,6 @@ compiled/
 .sass-cache/
 foundation/stylesheets/
 S3Sync.exe.config
+.dropbox
+desktop.ini
 

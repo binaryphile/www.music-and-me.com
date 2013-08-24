@@ -1,3 +1,51 @@
+GIT
+  remote: git://github.com/Maher4Ever/wdm.git
+  revision: 812370bfd4d4e7be6fe2e67e77e49a93535feb72
+  specs:
+    wdm (0.1.0)
+
+GIT
+  remote: git://github.com/guard/guard-compass.git
+  revision: 28aa7fa454e5dd8a9cdd4ab8d4ebed79a5ec26f0
+  specs:
+    guard-compass (0.0.8)
+      compass (>= 0.10.5)
+      guard (>= 1.8)
+
+GIT
+  remote: git://github.com/guard/guard-livereload.git
+  revision: 4aa9534e6a205623416d40b9009b198e40f1e387
+  specs:
+    guard-livereload (1.4.0)
+      em-websocket (>= 0.5.0)
+      guard (>= 1.8.0)
+      multi_json (~> 1.7)
+
+GIT
+  remote: git://github.com/guard/guard.git
+  revision: e8d1c4adf91be65ccf430252c76c52a9f86ae4ec
+  specs:
+    guard (1.8.2)
+      formatador (>= 0.2.4)
+      listen (>= 1.0.0)
+      lumberjack (>= 1.0.2)
+      pry (>= 0.9.10)
+      thor (>= 0.14.6)
+
+GIT
+  remote: git://github.com/johnbintz/rack-livereload.git
+  revision: 81a14b435757e0da83a88241ec4140621f832ab1
+  specs:
+    rack-livereload (0.3.15)
+      rack
+
+GIT
+  remote: git://github.com/nex3/rb-inotify.git
+  revision: f69e1fde4395d1e43e31e14e17f3740bd045d468
+  specs:
+    rb-inotify (0.9.1)
+      ffi (>= 0.5.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -17,29 +65,16 @@ GEM
     ffi (1.9.0-x86-mingw32)
     formatador (0.2.4)
     fssm (0.2.10)
-    guard (1.8.1)
-      formatador (>= 0.2.4)
-      listen (>= 1.0.0)
-      lumberjack (>= 1.0.2)
-      pry (>= 0.9.10)
-      thor (>= 0.14.6)
-    guard-compass (0.0.8)
-      compass (>= 0.10.5)
-      guard (>= 1.8)
-    guard-livereload (1.4.0)
-      em-websocket (>= 0.5.0)
-      guard (>= 1.8.0)
-      multi_json (~> 1.7)
     http_parser.rb (0.5.3)
     http_parser.rb (0.5.3-x86-mingw32)
-    kramdown (1.1.0)
-    listen (1.2.2)
+    kramdown (0.14.2)
+    listen (1.3.0)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
     lumberjack (1.0.4)
-    method_source (0.8.1)
-    multi_json (1.7.7)
+    method_source (0.8.2)
+    multi_json (1.7.9)
     mustache (0.99.4)
     nokogiri (1.5.9)
     nokogiri (1.5.9-x86-mingw32)
@@ -53,11 +88,7 @@ GEM
       slop (~> 3.4)
       win32console (~> 1.3)
     rack (1.5.2)
-    rack-livereload (0.3.15)
-      rack
     rb-fsevent (0.9.3)
-    rb-inotify (0.9.0)
-      ffi (>= 0.5.0)
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
     redcarpet (2.2.2)
@@ -68,7 +99,7 @@ GEM
       rack (~> 1.4)
       redcarpet (~> 2.1)
     sass (3.2.9)
-    slop (3.4.5)
+    slop (3.4.6)
     thor (0.18.1)
     win32console (1.3.2-x86-mingw32)
     zurb-foundation (4.2.3)
@@ -80,10 +111,12 @@ PLATFORMS
 
 DEPENDENCIES
   compass
-  guard
-  guard-compass
-  guard-livereload
-  kramdown
-  rack-livereload
+  guard!
+  guard-compass!
+  guard-livereload!
+  kramdown (~> 0.14)
+  rack-livereload!
+  rb-inotify!
   ruhoh (~> 2.1)
+  wdm!
   zurb-foundation
