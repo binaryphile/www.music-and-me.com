@@ -30,7 +30,7 @@ $default-float: left;
 
 // $body-bg: #fff;
 // $body-font-color: #222;
-$body-font-family: Muli, san-serif;
+$body-font-family: Asap, san-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -148,12 +148,12 @@ $header-font-weight: normal;
 
 // Heading font sizes
 
-// $h1-font-size: emCalc(44px);
-// $h2-font-size: emCalc(37px);
-// $h3-font-size: emCalc(27px);
-// $h4-font-size: emCalc(23px);
-// $h5-font-size: emCalc(18px);
-// $h6-font-size: 1em;
+$h1-font-size: emCalc(30px);
+$h2-font-size: emCalc(28px);
+$h3-font-size: emCalc(26px);
+$h4-font-size: emCalc(24px);
+$h5-font-size: emCalc(22px);
+$h6-font-size: 1em;
 
 // Subheaders
 
@@ -165,7 +165,7 @@ $header-font-weight: normal;
 
 // <small> styling
 
-// $small-font-size: 60%;
+$small-font-size: 82%;
 // $small-font-color: lighten($header-font-color, 30%);
 
 // Paragraphs

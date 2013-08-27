@@ -4,6 +4,20 @@
   background-repeat: no-repeat;
   height: 504px;
   margin-bottom: 20px;
+  font-size: 28px;
+  .special {
+    font-family: Marck Script, sans-serif;
+    font-size: 40px;
+  }
+  p {
+    padding-left: 30px;
+  }
+  .script {
+    font-family: Bad Script, sans-serif;
+  }
+  .first {
+    padding: 60px 0 25px 85px;
+  }
 }
 
 html {
@@ -41,6 +55,14 @@ h2 {
   margin-bottom: 0 !important;
 }
 
+.add-bottom {
+  margin-bottom: 20px !important;
+}
+
+.add-top {
+  margin-top: 20px !important;
+}
+
 .no-top {
   margin-top: 0 !important;
 }
@@ -60,3 +82,6 @@ h2 {
   text-align: center !important;
 }
 
+.indent {
+  padding-left: 1.25em;
+}
