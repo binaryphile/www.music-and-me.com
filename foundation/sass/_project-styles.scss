@@ -85,3 +85,16 @@ h2 {
 .indent {
   padding-left: 1.25em;
 }
+
+@media #{$medium} {
+  .target {
+    position: relative;
+    height: 527px;
+    overflow: hidden;
+    a {
+      position: absolute;
+      bottom: 1.25em;
+    }
+  }
+}
+
