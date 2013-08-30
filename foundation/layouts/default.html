@@ -2,21 +2,17 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <html lang="en">
-<head>
-  {{>head}}
-</head>
+
+{{>head}}
+
 <body>
-<nav class="top-bar">
-  {{>nav}}
-</nav>
+
+{{>nav}}
+
 {{{content}}}
-<div class="row">
-  <div class="large-12 columns">
-    <footer>
-    {{>footer}}
-    </footer>
-  </div>
-</div>
+
+{{>footer}}
+
 <script>
   document.write('<script src=' +
   ('__proto__' in {} ? '/assets/javascripts/vendor/zepto' : '/assets/javascripts/vendor/jquery') +
