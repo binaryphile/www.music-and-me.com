@@ -11,8 +11,9 @@ author:
   phone: 813-409-4244
 
 navigation:
-  - program
-  - class-map
+  - programs
+  - classes
+  - partners
 
 location-url: http://youandmeandmt.yourvirtuoso.com/Location.html?locationId=
 

@@ -1,5 +1,5 @@
 ---
-title: Our Programs
+title: Programs
 description: Programs offered by Music and Me, featuring Music Together&reg; curricula
 ---
 

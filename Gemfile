@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-gem 'ruhoh', "~> 2.1"
+gem 'ruhoh', github: 'ruhoh/ruhoh.rb'
 gem 'guard', github: 'guard/guard'
 gem 'guard-compass', github: 'guard/guard-compass'
 gem 'rb-inotify', github: 'nex3/rb-inotify', platforms: :ruby, require: false
