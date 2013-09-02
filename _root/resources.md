@@ -1,9 +1,9 @@
 ---
-title: Partners
-description: Business in the local St. Petersburg area who we trust and recommend.
+title: Resources
+description: Some stuff
 ---
 
-# Business Partners in St. Petersburg
+# Resources
 
 Music and Me believes in working to build the St. Petersburg business
 community by working with and promoting the local businesses which we
