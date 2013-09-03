@@ -102,3 +102,27 @@ footer {
   font-size: 82%;
 }
 
+.float-right {
+  float: right !important;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.my-row {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 62.5em;
+}
+
+@media #{$small} {
+  .top-bar-section ul.right-menu {
+    background-color: transparent;
+    float: right;
+    li > a {
+      background-color: transparent;
+    }
+  }
+}
+

@@ -1,19 +1,21 @@
 <nav class="top-bar">
   <ul class="title-area">
-    <li class="name">
-    <h1><a href="{{urls.base_path}}">{{ data.title }}</a></h1>
-    </li>
+    <li class="name"><h1><a href="{{urls.base_path}}">{{data.title}}</a></h1></li>
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
   </ul>
-  <section class="top-bar-section">
-      <ul class="left">
+  <div class="top-bar-section">
+    <div class="my-row">
+      <ul>
         {{# data.navigation?to__root }}
           {{> pages_list }}
         {{/ data.navigation?to__root }}
-        <li><a href="#address" title="5631 29th Ave S, Gulfport FL 33707">Address</a>
-        <li><a href="tel:813-409-4244">813-409-4244</a></li>
-        <li><a href="mailto:colleen@music-and-me.com" title="Click to email" target="_blank">colleen@music-and-me.com</a>
       </ul>
-  </section>
+    </div>
+    <ul class="right-menu">
+      <li><a href="mailto:colleen@music-and-me.com" title="Click to email" target="_blank">colleen@music-and-me.com</a>
+      <li><a href="tel:813-409-4244">813-409-4244</a></li>
+      <li><a href="#address" title="5631 29th Ave S, Gulfport FL 33707">Address</a>
+    </ul>
+  </div>
 </nav>
 
