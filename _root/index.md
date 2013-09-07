@@ -2,7 +2,7 @@
 title: Baby and Toddler Music Classes | Music and Me
 description: Music classes for Toddlers and Babies in St. Petersburg, Clearwater and St. Pete Beach. Developmental Music Programs for schools. Entertainment for parties.
 ---
-<div data-magellan-expedition="fixed">
+<div data-magellan-expedition="fixed" class="show-for-small">
   <dl class="sub-nav">
     <dd data-magellan-arrival="classes"><a href="#classes">Classes</a></dd>
     <dd data-magellan-arrival="offerings"><a href="#offerings">Offerings</a></dd>
