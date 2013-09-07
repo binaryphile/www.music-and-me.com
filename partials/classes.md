@@ -1,27 +1,29 @@
 <div class="row">
-<div class="large-11 large-offset-1 columns" markdown="1">
+<div class="large-12 columns" markdown="1">
 
 - [See All Classes][1]
-- [See Class Map][10]
+- [See Class Map][2]
 {: .inline-list}
 
 </div>
 </div>
-
-{{#data.navigation}}
 <div class="row">
-<div class="large-3 large-offset-1 columns" markdown="1">
 
-#### {{.}}
+{{#data.classes}}
+<div class="large-4 columns" markdown="1">
+
+#### {{area}}
 
 {{#locations}}
-- [{{label}} - {{days}}]({{data.location-url}}{{id}})
+- [{{label}} - {{days}} - {{types}}]({{data.location-url}}{{id}})
 {{/locations}}
 {: .no-bullet}
 
 </div>
+{{/data.classes}}
+
 </div>
-{{/data.navigation}}
 
 [1]: /classes/
+[2]: /classes/#map
 

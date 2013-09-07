@@ -18,7 +18,42 @@ navigation:
 location-url: http://youandmeandmt.yourvirtuoso.com/Location.html?locationId=
 
 classes:
-  - St. Petersburg
-  - SPB and West
-  - North Pinellas
+  - area: St. Petersburg
+    locations:
+      - label: Shorecrest School
+        days: Tu Th Sa
+        types: B MA
+        id: 147
+      - label: Downtown
+        days: Th
+        types: MA
+        id: 149
+      - label: Allendale Terrace
+        days: Th
+        types: GGU
+        id: 308
+  - area: SPB and West
+    locations:
+      - label: Admiral Farragut
+        days: Th
+        types: MA
+        id: 309
+      - label: St. Pete Beach
+        days: Mo
+        types: MA
+        id: 148
+      - label: Pasadena
+        days: We
+        types: MA BK
+        id: 144
+  - area: North Pinellas
+    locations:
+      - label: Clearwater 
+        days: We
+        types: MA
+        id: 149
+      - label: Seminole
+        days: Mo
+        types: MA
+        id: 306
 
