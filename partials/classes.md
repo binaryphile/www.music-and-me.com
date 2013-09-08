@@ -15,7 +15,7 @@
 #### {{area}}
 
 {{#locations}}
-- [{{label}} - {{days}} - {{types}}]({{data.location-url}}{{id}})
+- [{{label}} - {{days}}]({{data.location-url}}{{id}})
 {{/locations}}
 {: .no-bullet}
 

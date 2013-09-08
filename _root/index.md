@@ -4,14 +4,18 @@ description: Music classes for Toddlers and Babies in St. Petersburg, Clearwater
 ---
 <div data-magellan-expedition="fixed" class="show-for-small">
   <dl class="sub-nav">
+    <dd data-magellan-arrival="top"><a href="#top">Top</a></dd>
     <dd data-magellan-arrival="classes"><a href="#classes">Classes</a></dd>
     <dd data-magellan-arrival="offerings"><a href="#offerings">Offerings</a></dd>
     <dd data-magellan-arrival="news"><a href="#news">News</a></dd>
+    <dd data-magellan-arrival="address"><a href="#address">Address</a></dd>
   </dl>
 </div>
+<div data-magellan-destination="top" id="top" markdown="1">
 
 {{>header}}
 
+</div>
 <div data-magellan-destination="classes" id="classes" markdown="1">
 
 {{>classes}}
@@ -57,3 +61,4 @@ description: Music classes for Toddlers and Babies in St. Petersburg, Clearwater
 </div>
 </div>
 
+<div data-magellan-destination="address" id="address"></div>
