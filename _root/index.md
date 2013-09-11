@@ -1,30 +1,33 @@
 ---
 title: Baby and Toddler Music Classes | Music and Me
 description: Music classes for Toddlers and Babies in St. Petersburg, Clearwater and St. Pete Beach. Developmental Music Programs for schools. Entertainment for parties.
+topics:
+  - id: top
+    label: Top
+  - id: classes
+    label: Classes
+  - id: offerings
+    label: Offerings
+  - id: news
+    label: News
+  - id: address
+    label: Address
 ---
-<div data-magellan-expedition="fixed" class="show-for-small">
-  <dl class="sub-nav">
-    <dd data-magellan-arrival="top"><a href="#top">Top</a></dd>
-    <dd data-magellan-arrival="classes"><a href="#classes">Classes</a></dd>
-    <dd data-magellan-arrival="offerings"><a href="#offerings">Offerings</a></dd>
-    <dd data-magellan-arrival="news"><a href="#news">News</a></dd>
-    <dd data-magellan-arrival="address"><a href="#address">Address</a></dd>
-  </dl>
-</div>
-<div data-magellan-destination="top" id="top" markdown="1">
+{{>magellan}}
+
+{{>destination}}
 
 {{>header}}
 
-</div>
-<div data-magellan-destination="classes" id="classes" markdown="1">
+{{>destination}}
 
 {{>classes}}
 
-</div>
-
 {{>hero}}
 
-<div class="row" data-magellan-destination="offerings" id="offerings">
+{{>destination}}
+
+<div class="row">
 <div class="large-4 columns">
 <div class="panel target" markdown="1">
 <img src="http://placekitten.com/260/160" class="hide-for-small" />
@@ -53,7 +56,10 @@ description: Music classes for Toddlers and Babies in St. Petersburg, Clearwater
 </div>
 </div>
 </div>
-<div class="row" data-magellan-destination="news" id="news">
+
+{{>destination}}
+
+<div class="row">
 <div class="large-12 columns" markdown="1">
 
 {{>news}}
@@ -61,4 +67,5 @@ description: Music classes for Toddlers and Babies in St. Petersburg, Clearwater
 </div>
 </div>
 
-<div data-magellan-destination="address" id="address"></div>
+{{>destination}}
+
