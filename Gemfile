@@ -1,4 +1,7 @@
 source "https://rubygems.org"
+group :development do
+  gem 'debugger'
+end
 gem 'ruhoh', github: 'ruhoh/ruhoh.rb'
 gem 'guard', github: 'guard/guard'
 gem 'guard-compass', github: 'guard/guard-compass'

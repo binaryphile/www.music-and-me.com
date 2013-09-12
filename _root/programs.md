@@ -3,13 +3,13 @@ layout: indexed
 title: Programs
 description: Programs offered by Music and Me, featuring Music Together&reg; curricula
 topics:
-  - label: Top
+  - label: Music Together Program
     id: the-music-together-program
-  - label: In School
+  - label: School Programs
     id: music-together-in-school
 ---
 
-{{>anchor}}
+{{>destination}}
 
 Located in the beautiful St. Petersburg area, __{{data.title}}__ is a
 licensed Music Together&reg; center.  Founded in 2010,
@@ -117,7 +117,7 @@ Musically."
 Come join us! Go to our [Classes] page for registration and schedule
 information.
 
-{{>anchor}}
+{{>destination}}
 
 ### Music Together in School
 
