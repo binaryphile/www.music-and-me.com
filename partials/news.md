@@ -1,4 +1,4 @@
-### Music and Me News
+### {{data.title}} News
 
 Biting hiss climb the curtains sleep on your face toss the mousie shed
 everywhere, puking toss the mousie feed me give me fish sniff. Hiss tail

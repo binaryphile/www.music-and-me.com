@@ -4,4 +4,5 @@ foundation/stylesheets/
 S3Sync.exe.config
 .dropbox
 desktop.ini
+*.~1~
 

@@ -8,7 +8,7 @@ RuhohSpec: "2.1"
 # Used for things like RSS that need the full URL to a given resource.
 # This DOES NOT affect any of your paths or links in any way.
 # This DOES NOT configure domain mapping. See post2.ruhoh.com for hosting options.
-production_url: "http://sample.com"
+production_url: "http://www.music-and-me.com"
 
 # Intelligently prepends all urls in the system with the given base_path.
 # This allows you to host your blog in a subdirectory of a given website.
@@ -76,14 +76,11 @@ widgets :
     # -- config for google --
     tracking_id : 'UA-18745741-2'
 
-    # -- config for getclicky  --
-    # site_id :
-
   comments :
     use : disqus
     enable : true
     # -- config for disqus --
-    short_name : jekyllbootstrap # Change This!
+    short_name : musicandme # Change This!
 
     # -- config for livefyre --
     # site_id : 123
@@ -97,5 +94,3 @@ widgets :
     # width: 580
     # colorscheme: light
 
-  google_prettify :
-    linenums : true

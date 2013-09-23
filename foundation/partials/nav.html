@@ -12,9 +12,9 @@
       </ul>
     </div>
     <ul class="right-menu">
-      <li><a href="mailto:colleen@music-and-me.com" title="Click to email" target="_blank">colleen@music-and-me.com</a>
-      <li><a href="tel:813-409-4244">813-409-4244</a></li>
-      <li><a href="#address" title="5631 29th Ave S, Gulfport FL 33707">Address</a>
+      <li><a href="mailto:{{data.author.email}}" title="Click to email" target="_blank">{{data.author.email}}</a>
+      <li><a href="tel:{{data.author.phone}}">{{data.author.phone}}</a></li>
+      <li><a href="#address" title="{{#data.author.address}}{{street}}, {{city}}, {{state}} {{zip}}{{/data.author.address}}">Address</a>
     </ul>
   </div>
 </nav>
